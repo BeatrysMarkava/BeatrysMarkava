@@ -1,7 +1,6 @@
 # hi, i'm Beatrys 
 
-
-<!-- Cat Widget START -->
+<img src="https://readme-typing-svg.herokuapp.com?color=ff69b4&size=28&center=true&vCenter=true&width=600&lines=FIIT+student;Java+victim;Bioinformatics+survivor;Cat+approved+developer" />
 ```text
  /\_/\\
 ( o.o )
