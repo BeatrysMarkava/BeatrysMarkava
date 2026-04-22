@@ -1,16 +1,12 @@
-## Hi there 👋
+# hi, i'm Beatrys 
 
-<!--
-**BeatrysMarkava/BeatrysMarkava** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+[![Pet the cat](https://img.shields.io/badge/Pet%20the%20cat-click-pink?style=for-the-badge)](../../issues/new?template=pet-the-cat.yml)
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<!-- Cat Widget START -->
+```text
+ /\_/\\
+( o.o )
+ > ^ <
+Mood: sleepy
+Status: waiting for pets
+Pets received: 0
