@@ -1,0 +1,44 @@
+name: Pet the cat
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  pet-cat:
+    if: github.event.issue.title == 'pet the cat'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Update README
+        run: |
+          python3 << 'PY'
+          from pathlib import Path
+          import re
+
+          readme = Path("README.md")
+          text = readme.read_text(encoding="utf-8")
+
+          start = "<!-- Cat Widget START -->"
+          end = "<!-- Cat Widget END -->"
+
+          pattern = re.compile(
+              rf"{re.escape(start)}.*?{re.escape(end)}",
+              re.DOTALL
+          )
+
+          new_block = """<!-- Cat Widget START -->
+```text
+ /\\_/\\\\
+( ^.^ )
+ > ^ <
+Mood: very happy
+Status: has been pet
+Pets received: 1+
