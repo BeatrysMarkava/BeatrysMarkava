@@ -14,10 +14,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Update README
+      - name: Update README cat block
         run: |
           python3 << 'PY'
           from pathlib import Path
@@ -26,19 +26,40 @@ jobs:
           readme = Path("README.md")
           text = readme.read_text(encoding="utf-8")
 
-          start = "<!-- Cat Widget START -->"
-          end = "<!-- Cat Widget END -->"
+          pets_file = Path(".pets_count")
+          if pets_file.exists():
+              try:
+                  pets = int(pets_file.read_text(encoding="utf-8").strip())
+              except:
+                  pets = 0
+          else:
+              pets = 0
 
-          pattern = re.compile(
-              rf"{re.escape(start)}.*?{re.escape(end)}",
-              re.DOTALL
-          )
+          pets += 1
+          pets_file.write_text(str(pets), encoding="utf-8")
 
-          new_block = """<!-- Cat Widget START -->
+          if pets % 4 == 1:
+              mood = "happy"
+              status = "purring loudly"
+              face = "( ^.^ )"
+          elif pets % 4 == 2:
+              mood = "playful"
+              status = "chasing the contribution snake"
+              face = "( o.o )"
+          elif pets % 4 == 3:
+              mood = "very cuddly"
+              status = "sitting on your keyboard"
+              face = "( =^.^= )"
+          else:
+              mood = "sleepy but loved"
+              status = "taking a cozy nap"
+              face = "( -.- )"
+
+          new_block = f'''<!-- CAT-START -->
 ```text
  /\\_/\\\\
-( ^.^ )
+{face}
  > ^ <
-Mood: very happy
-Status: has been pet
-Pets received: 1+
+mood: {mood}
+status: {status}
+pets: {pets}
