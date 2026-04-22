@@ -1,6 +1,6 @@
 <table align="center">
   <tr>
-    <td><img src="https://tenor.com/ru/view/hi-hello-ermm-silly-cat-ultra-silly-gif-5928626290463323674" width="180"></td>
+    <td><img src="https://media1.tenor.com/m/Uka2MzEbthoAAAAd/hi-hello.gif" width="180"></td>
     <td align="center">
       <h1>
         <span style="color:#ff69b4;">I</span>
