@@ -1,12 +1,9 @@
 # hi, i'm Beatrys 
 
-[![Pet the cat](https://img.shields.io/badge/Pet%20the%20cat-click-pink?style=for-the-badge)](../../issues/new?template=pet-the-cat.yml)
 
 <!-- Cat Widget START -->
 ```text
  /\_/\\
 ( o.o )
  > ^ <
-Mood: sleepy
-Status: waiting for pets
-Pets received: 0
+<img src="[https://media.giphy.com/media/mlvseq9yvZhba/giphy.gif](https://tenor.com/ru/view/hi-hello-ermm-silly-cat-ultra-silly-gif-5928626290463323674)" width="250"/>
