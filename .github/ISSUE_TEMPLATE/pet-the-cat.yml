@@ -1,0 +1,9 @@
+name: Pet the cat
+description: Pet the profile cat
+title: "pet the cat"
+labels: ["pet-cat"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Press **Submit new issue** to pet the cat 🐈
