@@ -16,7 +16,7 @@
 <img src="https://readme-typing-svg.herokuapp.com?color=ff69b4&size=28&center=true&vCenter=true&width=600&lines=FIIT+STU+student;Java+Python+C+R+victim;HTLM+SCC+JavaScript+enjoyer;Bioinformatics+enthusiast;Cat+approved+developer" />
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ТВОЙ_USERNAME&show_icons=true&theme=radical" height="170"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ТВОЙ_USERNAME&layout=compact&theme=radical" height="170"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ТВОЙ_USERNAME&theme=radical" height="170"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=BeatrysMarkava&show_icons=true&theme=radical" height="170"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=BeatrysMarkava&layout=compact&theme=radical" height="170"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=BeatrysMarkava&theme=radical" height="170"/>
 </p>
