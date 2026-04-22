@@ -3,7 +3,11 @@
     <td><img src="https://media.giphy.com/media/mlvseq9yvZhba/giphy.gif" width="180"></td>
     <td align="center">
       <h1>
-        I am <span style="color:#ff4fa3;">Beatrys</span>, but also:
+        <span style="color:#ff69b4;">I</span>
+        <span style="color:#ff8cc6;">am</span>
+        <span style="color:#ff4fa3;">Beatrys</span>,
+        <span style="color:#c774ff;">but</span>
+        <span style="color:#7a5cff;">also:</span>
       </h1>
     </td>
     <td><img src="https://media.giphy.com/media/mlvseq9yvZhba/giphy.gif" width="180"></td>
